@@ -223,4 +223,44 @@ main section img{
         margin-top: 25px;
     }
 }
-            
+      
+.catalog{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#title-rivers{
+    text-align: center;
+    
+    
+}
+.catalog h1, h3{
+    text-align: center;
+    background-color: #427AA1;
+}
+.catalog img{
+    width: 300px;
+    height: 300px;
+    float:  right;
+}
+.catalog p{
+    width: 100%;
+    height: 300px;
+    text-size-adjust: 100px;
+
+}
+.fork{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.gray{
+    margin-top: 170px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.grand{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 50px;
+}
+

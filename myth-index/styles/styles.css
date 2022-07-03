@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Nothing+You+Could+Do&display=swap"');
+/*main body*/
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    background-color: #F0EAD2;
+    font-family: "  joan", Helvetica, sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+#intro{
+    grid-column: 2;
+    margin-top: 100px;
+}
+#intro h2{
+    color: #A98467;
+    background-color: #6C584C;
+    font-family:"Nothing You Could Do";
+}
+
+#page-link{
+    grid-column: 2;
+    margin-top: 200px;
+}
+#page-link h4{
+    color:#6C584C;
+    font-family:"Nothing You Could Do";
+}
+/*banner*/
+#banner{
+    grid-column: 1/4;
+}
+
+#banner-msg{
+    grid-column: 2;
+    color: #A98467;
+    background-color: #6C584C;
+    font-family: "Nothing You Could Do";
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#banner-img{
+    width:100%;
+    height: 500px;
+}
+
+
+/* header*/
+header{
+    text-align: center;
+    background-color: #6C584C;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+header img{
+    width: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav a{
+    text-align: center;
+    color:#A98467;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color:#A98467 ;
+    color:#6C584C;
+}
+
+/*footer*/
+footer{
+    background-color: #6C584C;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    background-color: #6C584C;
+    color:#A98467;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color:#A98467 ;
+    color:#6C584C;
+}

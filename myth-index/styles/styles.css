@@ -98,3 +98,26 @@ footer a:hover{
     background-color:#A98467 ;
     color:#6C584C;
 }
+
+/*page 2*/
+#title{
+    grid-column: 2;
+}
+/*midas*/
+#Midas{
+    grid-column: 2;
+    
+}
+#Midas img{
+    width: 300px;
+    float: right;
+}
+
+/*momotaro*/
+#Momotaro{
+    grid-column: 2;
+}
+#Momotaro img{
+    width: 300px;
+    float:right;
+}

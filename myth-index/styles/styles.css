@@ -102,6 +102,10 @@ footer a:hover{
 /*page 2*/
 #title{
     grid-column: 2;
+    color: #A98467;
+    background-color: #6C584C;
+    font-family:"Nothing You Could Do";
+    margin-top: 30px;
 }
 /*midas*/
 #Midas{
@@ -121,3 +125,4 @@ footer a:hover{
     width: 300px;
     float:right;
 }
+

@@ -126,3 +126,10 @@ footer a:hover{
     float:right;
 }
 
+/*page 3*/
+#conclusion{
+    grid-column: 2;
+}
+#links{
+    grid-column: 2;
+}
